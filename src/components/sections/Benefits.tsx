@@ -27,8 +27,14 @@ const Benefits: React.FC = () => {
             description="Garanta agilidade em fusões, aquisições e operações imobiliárias, com dados sempre atualizados e acessíveis."
           />
         </div>
+        {/* Visibilidade - estrutura exata com espaço para imagem */}
         <div className="flex flex-col items-center text-xl md:text-[32px] text-[rgba(39,124,48,1)] font-black text-center max-w-[320px] min-w-[280px] shrink-0">
-          <div className="bg-white flex h-[214px] aspect-square rounded-full border-2 border-[rgba(39,124,48,1)]" />
+          <div className="bg-white flex h-[214px] aspect-square rounded-full border-2 border-[rgba(39,124,48,1)] items-center justify-center">
+            {/* Imagem visiv.png adicionada aqui */}
+            <img src="public/visibilidade.jpg" alt="Visibilidade" className="w-3/4 h-3/4 object-contain" />
+          </div>
+
+
           <div className="mt-6">Visibilidade</div>
           <div className="text-[rgba(48,158,79,1)] text-base md:text-2xl font-normal tracking-[1px] mt-6">
             Forneça relatórios completos e certificados de forma fácil e rápida para análise de investidores interessados.
