@@ -12,7 +12,7 @@ const Benefits: React.FC = () => {
         <span className="text-[rgba(0,63,13,1)]">dos nossos serviços</span>
       </h2>
 
-      <div className="flex flex-wrap md:flex-nowrap justify-center gap-6 w-full max-w-[1567px] mt-10 md:mt-[124px] overflow-x-auto px-1">
+      <div className="flex flex-wrap md:flex-nowrap justify-center gap-6 w-full max-w-[1567px] mt-10 md:mt-[124px] px-1"> {/* Removido 'overflow-x-auto' */}
         <div className="min-w-[280px]">
           <BenefitCard
             icon="https://cdn.builder.io/api/v1/image/assets/294290e65fab44dbb4b934ad88d9fa28/baa0fee75e209b17f0931c7550eebeb2e3570a7e?placeholderIfAbsent=true"
